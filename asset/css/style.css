@@ -1,0 +1,40 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-parent {
+  background: hsla(213, 77%, 14%, 1);
+  background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+  padding: 1rem;
+  width: 50%;
+  border-radius: 1rem;
+  height: fit-content;
+}
+
+.line {
+  border-bottom: .5rem dashed white;
+}
+
+.btn-custom {
+  padding: 1rem 1rem;
+  background-color: #198754;
+}
+
+.wrapper-parent .btn-custom:hover {
+  background-color: #115e3b;
+}
+
+@media (max-width: 575.98px) {
+  .wrapper-parent {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wrapper-parent {
+    width: 80%;
+  }
+}
